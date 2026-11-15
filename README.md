@@ -123,7 +123,3 @@ The site uses hash-based URLs (e.g. `/#/review`) and a relative asset base, so d
 More detail in [`docs/CURRICULUM_ROADMAP.md`](docs/CURRICULUM_ROADMAP.md).
 
 
-## Contributing
-
-Contributions that improve Korean accuracy, accessibility, learning design, and technical quality are welcome. Please verify Hangul spelling, Revised Romanization, English translations, and register before proposing new lesson content, and run `npm test` and `npm run build` before opening a pull request.
-
