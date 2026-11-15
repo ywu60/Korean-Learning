@@ -1,0 +1,138 @@
+/* Design tokens. Light theme by default; dark follows the OS unless overridden. */
+:root {
+  --font-sans: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Gothic', system-ui, -apple-system,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-korean: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Gothic', system-ui, sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --content-width: 46rem;
+  --wide-width: 72rem;
+
+  --color-bg: #f8f7f3;
+  --color-surface: #ffffff;
+  --color-surface-2: #f1efe9;
+  --color-border: #dedad0;
+  --color-text: #1d2733;
+  --color-muted: #5b6573;
+  --color-accent: #2f5a80;
+  --color-accent-strong: #234866;
+  --color-accent-soft: #e3ecf4;
+  --color-on-accent: #ffffff;
+  --color-focus: #1f6feb;
+  --color-success: #1f7a4d;
+  --color-success-soft: #e2f3ea;
+  --color-danger: #b42318;
+  --color-danger-soft: #fdecea;
+  --color-highlight: #fff1b8;
+
+  /* Grammatical roles: always paired with a text label and an underline style. */
+  --role-topic: #dce9f7;
+  --role-topic-line: #2f6db0;
+  --role-subject: #ece3f7;
+  --role-subject-line: #7a4bb3;
+  --role-object: #fbebd2;
+  --role-object-line: #b26b00;
+  --role-destination: #dff1e3;
+  --role-destination-line: #2c8a4b;
+  --role-location: #d9f0ef;
+  --role-location-line: #19807a;
+  --role-time: #ecebe7;
+  --role-time-line: #6b6b66;
+  --role-verb: #f8e0e4;
+  --role-verb-line: #b4344d;
+
+  --form-stem: #e6ecf3;
+  --form-ending: #fde7c8;
+  --form-contracted: #efe4f6;
+
+  --shadow: 0 1px 2px rgb(20 30 40 / 6%), 0 2px 8px rgb(20 30 40 / 5%);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --color-bg: #13171c;
+    --color-surface: #1b2027;
+    --color-surface-2: #222934;
+    --color-border: #333c48;
+    --color-text: #e6e9ed;
+    --color-muted: #a2acb8;
+    --color-accent: #8ab4dc;
+    --color-accent-strong: #a9c9e8;
+    --color-accent-soft: #1f3247;
+    --color-on-accent: #0f1924;
+    --color-focus: #6ea8ff;
+    --color-success: #6fcf97;
+    --color-success-soft: #173a29;
+    --color-danger: #ff8a80;
+    --color-danger-soft: #3d1c1a;
+    --color-highlight: #5a4b12;
+    --role-topic: #1d3550;
+    --role-topic-line: #7fb3eb;
+    --role-subject: #33264a;
+    --role-subject-line: #c3a2ef;
+    --role-object: #43321a;
+    --role-object-line: #f0b25e;
+    --role-destination: #1c3a27;
+    --role-destination-line: #7fd39a;
+    --role-location: #173b3a;
+    --role-location-line: #6fd2cb;
+    --role-time: #2c2f33;
+    --role-time-line: #b5b5ae;
+    --role-verb: #45212a;
+    --role-verb-line: #f290a4;
+    --form-stem: #24313f;
+    --form-ending: #4a3619;
+    --form-contracted: #382a47;
+    --shadow: 0 1px 2px rgb(0 0 0 / 30%);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --color-bg: #13171c;
+  --color-surface: #1b2027;
+  --color-surface-2: #222934;
+  --color-border: #333c48;
+  --color-text: #e6e9ed;
+  --color-muted: #a2acb8;
+  --color-accent: #8ab4dc;
+  --color-accent-strong: #a9c9e8;
+  --color-accent-soft: #1f3247;
+  --color-on-accent: #0f1924;
+  --color-focus: #6ea8ff;
+  --color-success: #6fcf97;
+  --color-success-soft: #173a29;
+  --color-danger: #ff8a80;
+  --color-danger-soft: #3d1c1a;
+  --color-highlight: #5a4b12;
+  --role-topic: #1d3550;
+  --role-topic-line: #7fb3eb;
+  --role-subject: #33264a;
+  --role-subject-line: #c3a2ef;
+  --role-object: #43321a;
+  --role-object-line: #f0b25e;
+  --role-destination: #1c3a27;
+  --role-destination-line: #7fd39a;
+  --role-location: #173b3a;
+  --role-location-line: #6fd2cb;
+  --role-time: #2c2f33;
+  --role-time-line: #b5b5ae;
+  --role-verb: #45212a;
+  --role-verb-line: #f290a4;
+  --form-stem: #24313f;
+  --form-ending: #4a3619;
+  --form-contracted: #382a47;
+  --shadow: 0 1px 2px rgb(0 0 0 / 30%);
+  color-scheme: dark;
+}

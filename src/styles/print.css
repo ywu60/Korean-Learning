@@ -1,0 +1,70 @@
+/* Printing: hide interactive chrome; show content in black on white. */
+@media print {
+  :root {
+    --color-bg: #fff;
+    --color-surface: #fff;
+    --color-surface-2: #f3f3f3;
+    --color-text: #000;
+    --color-muted: #444;
+    --shadow: none;
+  }
+  body {
+    font-size: 11pt;
+    background: #fff;
+  }
+  .no-print,
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .audio-group,
+  .icon-button,
+  .step-nav,
+  .outline,
+  .reader__toggles,
+  .button,
+  .button-row,
+  .hint,
+  .link-button,
+  .token-panel,
+  .vocab-card__save,
+  .score-summary,
+  .question__previous,
+  textarea {
+    display: none !important;
+  }
+  .page {
+    max-width: none;
+    padding: 0;
+  }
+  .step,
+  .card,
+  .question,
+  .vocab-card {
+    box-shadow: none;
+    border-color: #bbb;
+    break-inside: avoid;
+  }
+  .sentence,
+  .form-row,
+  .rule,
+  .comparison tr,
+  .recap-table tr,
+  .static-question {
+    break-inside: avoid;
+  }
+  .print-step {
+    break-before: auto;
+  }
+  .answer-key {
+    break-before: page;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+}

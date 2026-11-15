@@ -1,0 +1,162 @@
+[
+  {
+    "id": "word-order-sov",
+    "name": "Verb-final word order",
+    "label": "Subject · Object · Verb",
+    "category": "sentence-structure",
+    "description": "Korean sentences normally end with the verb. The topic or subject usually comes first, then other information such as time, place, and object.",
+    "rules": [
+      { "pattern": "Topic/Subject + Object + Verb", "explanation": "나는 밥을 먹어. = I (topic) meal (object) eat." },
+      { "pattern": "Time words come early", "explanation": "Words like 내일, 어제, 오늘, and 지금 usually appear near the start, after the topic." }
+    ],
+    "pitfalls": [
+      "Particles, not word order, carry most of the grammatical roles, so the order before the verb is fairly flexible.",
+      "In conversation the subject is often left out when it is obvious: 밥 먹었어? (Did you eat?)"
+    ],
+    "references": []
+  },
+  {
+    "id": "topic-eun-neun",
+    "name": "Topic particle 은/는",
+    "label": "은/는",
+    "category": "particle",
+    "description": "Marks the topic: what the sentence is about. Often it marks the same word an English speaker would call the subject.",
+    "rules": [
+      { "pattern": "vowel-final noun + 는", "explanation": "나 → 나는, 너 → 너는" },
+      { "pattern": "consonant-final noun + 은", "explanation": "책 → 책은, 집 → 집은" }
+    ],
+    "pitfalls": [
+      "The difference between 은/는 and 이/가 is subtle and is covered in a later module. For now: 은/는 sets the topic, 이/가 points at the subject.",
+      "Casual speech often drops 은/는 when the topic is clear."
+    ],
+    "references": []
+  },
+  {
+    "id": "subject-i-ga",
+    "name": "Subject particle 이/가",
+    "label": "이/가",
+    "category": "particle",
+    "description": "Marks the grammatical subject, often new information or the one who does the action.",
+    "rules": [
+      { "pattern": "vowel-final noun + 가", "explanation": "친구 → 친구가" },
+      { "pattern": "consonant-final noun + 이", "explanation": "물 → 물이, 책 → 책이" }
+    ],
+    "pitfalls": [
+      "나 and 너 change shape before 가: 내가 (naega) and 네가 (nega). In speech 네가 is often pronounced 니가 to avoid confusion with 내가."
+    ],
+    "references": []
+  },
+  {
+    "id": "object-eul-reul",
+    "name": "Object particle 을/를",
+    "label": "을/를",
+    "category": "particle",
+    "description": "Marks the direct object: the thing that receives the action.",
+    "rules": [
+      { "pattern": "consonant-final noun + 을", "explanation": "밥 → 밥을, 물 → 물을, 책 → 책을" },
+      { "pattern": "vowel-final noun + 를", "explanation": "너 → 너를, 커피 → 커피를, 친구 → 친구를, 한국어 → 한국어를" }
+    ],
+    "pitfalls": [
+      "Some verbs take an object in Korean where English uses a preposition: 친구를 기다려 = I wait for a friend.",
+      "In casual speech 을/를 is frequently dropped: 밥 먹었어."
+    ],
+    "references": []
+  },
+  {
+    "id": "destination-e",
+    "name": "Destination/target particle 에",
+    "label": "에",
+    "category": "particle",
+    "description": "Marks where something goes or the target of an action, such as the place you go or the company you apply to. It also marks time and static location, which later modules cover.",
+    "rules": [
+      { "pattern": "place + 에 + 가다/오다", "explanation": "학교에 가 = go to school" },
+      { "pattern": "target + 에 + 지원하다", "explanation": "회사에 지원해 = apply to a company" }
+    ],
+    "pitfalls": [
+      "에 has the same form after vowels and consonants.",
+      "Do not use 에 for the place where an action happens; that is 에서."
+    ],
+    "references": []
+  },
+  {
+    "id": "location-eseo",
+    "name": "Action-location particle 에서",
+    "label": "에서",
+    "category": "particle",
+    "description": "Marks the place where an action takes place.",
+    "rules": [
+      { "pattern": "place + 에서 + action verb", "explanation": "집에서 일해 = work at home" },
+      { "pattern": "여기에서 → 여기서", "explanation": "With 여기 (here), the shortened 여기서 is very common." }
+    ],
+    "pitfalls": [
+      "Compare 학교에 가 (go to school: destination) with 학교에서 공부해 (study at school: where the action happens)."
+    ],
+    "references": []
+  },
+  {
+    "id": "present-casual",
+    "name": "Casual present tense",
+    "label": "-아/어/해",
+    "category": "tense",
+    "description": "Describes habits, general facts, and things happening around now. Also used for planned near-future actions. Casual speech: use with close friends and people younger than you.",
+    "rules": [
+      { "pattern": "stem with ㅏ or ㅗ + 아", "explanation": "가 + 아 → 가, 오 + 아 → 와, 만나 + 아 → 만나" },
+      { "pattern": "other stems + 어", "explanation": "먹 + 어 → 먹어, 마시 + 어 → 마셔, 읽 + 어 → 읽어" },
+      { "pattern": "하다 → 해", "explanation": "공부하다 → 공부해, 좋아하다 → 좋아해" }
+    ],
+    "pitfalls": [
+      "When the stem ends in a vowel, the ending often contracts: 마시 + 어 → 마셔, 기다리 + 어 → 기다려, 쓰 + 어 → 써.",
+      "Adding 요 makes the polite form (먹어요). Polite speech is covered in a later module."
+    ],
+    "references": []
+  },
+  {
+    "id": "past-casual",
+    "name": "Casual past tense",
+    "label": "-았어/었어/했어",
+    "category": "tense",
+    "description": "Describes completed actions or past states.",
+    "rules": [
+      { "pattern": "stem with ㅏ or ㅗ + 았어", "explanation": "가 + 았어 → 갔어, 오 + 았어 → 왔어, 사 + 았어 → 샀어" },
+      { "pattern": "other stems + 었어", "explanation": "먹 + 었어 → 먹었어, 마시 + 었어 → 마셨어" },
+      { "pattern": "하다 → 했어", "explanation": "공부하다 → 공부했어" }
+    ],
+    "pitfalls": [
+      "The same vowel contractions as the present happen here: 마시 + 었어 → 마셨어, 기다리 + 었어 → 기다렸어.",
+      "좋아했어 means \"liked\". In 좋아한다고 했어 (\"said that [I] like\"), 했어 is the past of saying, not of liking."
+    ],
+    "references": []
+  },
+  {
+    "id": "future-eul-geoya",
+    "name": "Future with -(으)ㄹ 거야",
+    "label": "-(으)ㄹ 거야",
+    "category": "tense",
+    "description": "Expresses plans, intentions, and predictions.",
+    "rules": [
+      { "pattern": "vowel-final stem + ㄹ 거야", "explanation": "가 → 갈 거야, 사 → 살 거야, 공부하 → 공부할 거야" },
+      { "pattern": "consonant-final stem + 을 거야", "explanation": "먹 → 먹을 거야, 읽 → 읽을 거야" },
+      { "pattern": "ㄹ-final stem + 거야", "explanation": "놀다 (to hang out) → 놀 거야: the stem already ends in ㄹ, so only 거야 is added." }
+    ],
+    "pitfalls": [
+      "거야 is usually pronounced [꺼야], but it is written and romanized geoya.",
+      "살 거야 can be the future of 사다 (to buy) or of 살다 (to live). Context makes it clear."
+    ],
+    "references": []
+  },
+  {
+    "id": "progressive-go-isseo",
+    "name": "Progressive with -고 있어",
+    "label": "-고 있어",
+    "category": "tense",
+    "description": "Describes an action in progress right now, or an ongoing activity around the current period. It is not a future or past form.",
+    "rules": [
+      { "pattern": "stem + 고 있어", "explanation": "The stem never changes: 공부하고 있어, 읽고 있어, 쓰고 있어, 기다리고 있어." }
+    ],
+    "pitfalls": [
+      "English uses -ing for future plans (\"I'm going tomorrow\"); Korean -고 있어 does not. Use the present or -(으)ㄹ 거야 for plans.",
+      "-고 있어 can combine with past tense (-고 있었어, \"was doing\"). That comes in a later module."
+    ],
+    "references": []
+  }
+]

@@ -1,0 +1,313 @@
+{
+  "id": "section-module-review",
+  "moduleId": "verb-tenses",
+  "label": "Module review",
+  "kind": "review",
+  "title": "Review and Assessment",
+  "summary": "Bring the four forms, five particles, and all module vocabulary together, then test yourself with a mixed quiz.",
+  "learningObjectives": [
+    "Recall the four verb forms and when to use each",
+    "Choose the right particle among 은/는, 이/가, 을/를, 에, and 에서",
+    "Check your understanding with a mixed assessment and find areas to revisit"
+  ],
+  "newVocabularyIds": [],
+  "reviewVocabularyIds": ["eat", "drink", "study", "like", "love", "go", "come", "buy", "meet", "apply", "read", "write", "work", "wait", "exercise", "rice-meal", "water", "korean-language", "school", "friend", "coffee", "company", "book", "letter", "home", "i-me", "you-casual", "tomorrow", "yesterday", "today", "now", "here", "that-determiner"],
+  "grammarConceptIds": ["present-casual", "past-casual", "future-eul-geoya", "progressive-go-isseo", "topic-eun-neun", "subject-i-ga", "object-eul-reul", "destination-e", "location-eseo"],
+  "estimatedMinutes": 15,
+  "steps": [
+    {
+      "id": "mr-intro",
+      "type": "intro",
+      "title": "Putting it all together",
+      "body": [
+        "You've learned four verb forms, five particles, and 33 words, each introduced in a real sentence.",
+        "This review summarizes the patterns, revisits the vocabulary, and finishes with a 12-question assessment that mixes all three sections.",
+        "After the assessment, the final page shows which concepts to revisit and links back to the lessons that teach them."
+      ]
+    },
+    {
+      "id": "mr-four-forms",
+      "type": "recap",
+      "title": "The four forms",
+      "points": [
+        "Present -아/어/해: habits, general facts, and things happening around now.",
+        "Past -았어/었어/했어: completed actions.",
+        "Future -(으)ㄹ 거야: plans, intentions, and predictions.",
+        "Progressive -고 있어: an action underway right now."
+      ],
+      "grammarConceptIds": ["present-casual", "past-casual", "future-eul-geoya", "progressive-go-isseo"],
+      "table": {
+        "caption": "One verb, four forms: 공부하다 (to study)",
+        "headers": ["Form", "Pattern", "Example", "Meaning"],
+        "rows": [
+          ["Present", "-아/어/해", "나는 한국어를 공부해.", "I study Korean."],
+          ["Past", "-았어/었어/했어", "나는 한국어를 공부했어.", "I studied Korean."],
+          ["Future", "-(으)ㄹ 거야", "나는 한국어를 공부할 거야.", "I will study Korean."],
+          ["Progressive", "-고 있어", "나는 지금 한국어를 공부하고 있어.", "I am studying Korean now."]
+        ]
+      }
+    },
+    {
+      "id": "mr-particles",
+      "type": "recap",
+      "title": "The five particles",
+      "points": [
+        "Particles attach to the end of a noun to show its role.",
+        "Most have a vowel form and a consonant form; 에 and 에서 never change.",
+        "In casual speech, 은/는, 이/가, and 을/를 are often dropped when the meaning is clear."
+      ],
+      "grammarConceptIds": ["topic-eun-neun", "subject-i-ga", "object-eul-reul", "destination-e", "location-eseo"],
+      "table": {
+        "caption": "Particle summary",
+        "headers": ["Particle", "Role", "Example"],
+        "rows": [
+          ["은/는", "Topic: what the sentence is about", "나는 (as for me)"],
+          ["이/가", "Subject: who does the action", "친구가 올 거야 (a friend will come)"],
+          ["을/를", "Object: what receives the action", "밥을, 커피를"],
+          ["에", "Destination or target", "학교에 가, 회사에 지원해"],
+          ["에서", "Where an action happens", "집에서 일해, 여기서 기다려"]
+        ]
+      }
+    },
+    {
+      "id": "mr-vocab-verbs",
+      "type": "vocabulary",
+      "title": "Vocabulary review: verbs",
+      "intro": "All fifteen verbs from this module. Can you give the present, past, future, and progressive of each?",
+      "vocabularyIds": ["eat", "drink", "study", "like", "love", "go", "come", "buy", "meet", "apply", "read", "write", "work", "wait", "exercise"]
+    },
+    {
+      "id": "mr-vocab-nouns",
+      "type": "vocabulary",
+      "title": "Vocabulary review: people, places, and things",
+      "vocabularyIds": ["rice-meal", "water", "korean-language", "school", "friend", "coffee", "company", "book", "letter", "home"]
+    },
+    {
+      "id": "mr-vocab-other",
+      "type": "vocabulary",
+      "title": "Vocabulary review: pronouns, time, and place words",
+      "vocabularyIds": ["i-me", "you-casual", "yesterday", "today", "tomorrow", "now", "here", "that-determiner"]
+    },
+    {
+      "id": "mr-assessment",
+      "type": "quiz",
+      "title": "Module assessment",
+      "intro": "Twelve mixed questions from all three sections. Your first answer to each question counts toward your score; you can still retry to see the explanation.",
+      "assessment": true,
+      "questions": [
+        {
+          "id": "q-mr-drink-present",
+          "type": "multipleChoice",
+          "prompt": "Complete the sentence: 나는 물을 ___. (I drink water.)",
+          "options": [
+            { "id": "a", "text": "마셔" },
+            { "id": "b", "text": "마셨어" },
+            { "id": "c", "text": "마실 거야" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "The present of 마시다 is 마셔 (마시 + 어). 마셨어 is past and 마실 거야 is future.",
+          "conceptIds": ["present-casual"],
+          "vocabularyIds": ["drink", "water"]
+        },
+        {
+          "id": "q-mr-ate",
+          "type": "multipleChoice",
+          "prompt": "Which sentence means \"I ate a meal\"?",
+          "options": [
+            { "id": "a", "text": "나는 밥을 먹어." },
+            { "id": "b", "text": "나는 밥을 먹었어." },
+            { "id": "c", "text": "나는 밥을 먹고 있어." }
+          ],
+          "correctOptionId": "b",
+          "explanation": "먹었어 is the past of 먹다. 먹어 is present, and 먹고 있어 means \"am eating.\"",
+          "conceptIds": ["past-casual"],
+          "vocabularyIds": ["eat", "rice-meal"]
+        },
+        {
+          "id": "q-mr-go-future",
+          "type": "multipleChoice",
+          "prompt": "What is the future form of 가다 (to go)?",
+          "options": [
+            { "id": "a", "text": "갔어" },
+            { "id": "b", "text": "가을 거야" },
+            { "id": "c", "text": "갈 거야" }
+          ],
+          "correctOptionId": "c",
+          "explanation": "가 ends in a vowel, so ㄹ attaches under it: 갈 거야 (gal geoya).",
+          "conceptIds": ["future-eul-geoya"],
+          "vocabularyIds": ["go"]
+        },
+        {
+          "id": "q-mr-reading-now",
+          "type": "multipleChoice",
+          "prompt": "Complete the sentence: 나는 지금 책을 ___. (I am reading a book now.)",
+          "options": [
+            { "id": "a", "text": "읽어" },
+            { "id": "b", "text": "읽었어" },
+            { "id": "c", "text": "읽고 있어" }
+          ],
+          "correctOptionId": "c",
+          "explanation": "An action in progress uses -고 있어: 읽고 있어.",
+          "conceptIds": ["progressive-go-isseo"],
+          "vocabularyIds": ["read", "book", "now"]
+        },
+        {
+          "id": "q-mr-meaning-met",
+          "type": "multipleChoice",
+          "prompt": "What does this sentence mean?",
+          "sentence": { "id": "mr-q-met", "korean": "나는 어제 친구를 만났어.", "romanization": "Naneun eoje chingureul mannasseo.", "english": "I met a friend yesterday." },
+          "options": [
+            { "id": "a", "text": "I will meet a friend tomorrow." },
+            { "id": "b", "text": "I met a friend yesterday." },
+            { "id": "c", "text": "A friend came yesterday." }
+          ],
+          "correctOptionId": "b",
+          "explanation": "어제 = yesterday, 친구를 = friend (object), 만났어 = met.",
+          "conceptIds": ["past-casual"],
+          "vocabularyIds": ["meet", "friend", "yesterday"]
+        },
+        {
+          "id": "q-mr-eseo",
+          "type": "multipleChoice",
+          "prompt": "Which particle marks the place where an action happens?",
+          "options": [
+            { "id": "a", "text": "에" },
+            { "id": "b", "text": "에서" },
+            { "id": "c", "text": "을/를" }
+          ],
+          "correctOptionId": "b",
+          "explanation": "에서 marks the location of an action (집에서 일해). 에 marks a destination (학교에 가).",
+          "conceptIds": ["location-eseo"]
+        },
+        {
+          "id": "q-mr-e-destination",
+          "type": "multipleChoice",
+          "prompt": "Complete the sentence: 나는 내일 학교___ 갈 거야. (I will go to school tomorrow.)",
+          "options": [
+            { "id": "a", "text": "에" },
+            { "id": "b", "text": "에서" },
+            { "id": "c", "text": "가" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "School is the destination of going, so it takes 에: 학교에 갈 거야.",
+          "conceptIds": ["destination-e"],
+          "vocabularyIds": ["school", "go"]
+        },
+        {
+          "id": "q-mr-object-coffee",
+          "type": "multipleChoice",
+          "prompt": "Complete the sentence: 나는 커피___ 살 거야. (I will buy coffee.)",
+          "options": [
+            { "id": "a", "text": "을" },
+            { "id": "b", "text": "를" },
+            { "id": "c", "text": "이" }
+          ],
+          "correctOptionId": "b",
+          "explanation": "Coffee is the object, and 커피 ends in a vowel, so it takes 를: 커피를.",
+          "conceptIds": ["object-eul-reul"],
+          "vocabularyIds": ["coffee", "buy"]
+        },
+        {
+          "id": "q-mr-which-progressive",
+          "type": "multipleChoice",
+          "prompt": "Which form of 일하다 (to work) is progressive?",
+          "options": [
+            { "id": "a", "text": "일해" },
+            { "id": "b", "text": "일했어" },
+            { "id": "c", "text": "일할 거야" },
+            { "id": "d", "text": "일하고 있어" }
+          ],
+          "correctOptionId": "d",
+          "explanation": "-고 있어 marks the progressive: 일하고 있어 = am working. The others are present, past, and future.",
+          "conceptIds": ["progressive-go-isseo"],
+          "vocabularyIds": ["work"]
+        },
+        {
+          "id": "q-mr-waited",
+          "type": "multipleChoice",
+          "prompt": "Which form means \"waited\"?",
+          "options": [
+            { "id": "a", "text": "기다렸어" },
+            { "id": "b", "text": "기다리고 있어" },
+            { "id": "c", "text": "기다릴 거야" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "기다리 + 었어 contracts to 기다렸어 (gidaryeosseo), the past tense.",
+          "difficulty": "medium",
+          "conceptIds": ["past-casual"],
+          "vocabularyIds": ["wait"]
+        },
+        {
+          "id": "q-mr-identify-target",
+          "type": "tokenSelect",
+          "prompt": "Tap the word that shows where you will apply.",
+          "sentence": {
+            "id": "mr-q-identify-target",
+            "korean": "나는 그 회사에 지원할 거야.",
+            "romanization": "Naneun geu hoesae jiwonhal geoya.",
+            "english": "I will apply to that company.",
+            "tokens": [
+              { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는" },
+              { "text": "그", "romanization": "geu", "meaning": "that", "role": "determiner" },
+              { "text": "회사에", "romanization": "hoesae", "meaning": "to the company (target)", "role": "destination", "marker": "에" },
+              { "text": "지원할 거야", "romanization": "jiwonhal geoya", "meaning": "will apply", "role": "verb" }
+            ]
+          },
+          "correctTokenIndexes": [2],
+          "explanation": "회사에 carries 에, which marks the target of applying. 그 (that) describes 회사 but is not the particle-marked word.",
+          "difficulty": "medium",
+          "conceptIds": ["destination-e"]
+        },
+        {
+          "id": "q-mr-order-waiting",
+          "type": "ordering",
+          "prompt": "Put the words in order to say \"I am waiting for a friend here.\"",
+          "pieces": ["나는", "여기서", "친구를", "기다리고 있어"],
+          "alternativeOrders": [
+            ["여기서", "나는", "친구를", "기다리고 있어"],
+            ["나는", "친구를", "여기서", "기다리고 있어"]
+          ],
+          "sentence": { "id": "mr-q-order-waiting", "korean": "나는 여기서 친구를 기다리고 있어.", "romanization": "Naneun yeogiseo chingureul gidarigo isseo.", "english": "I am waiting for a friend here." },
+          "explanation": "The verb goes last. 여기서 marks where, 친구를 is who you are waiting for, and -고 있어 shows it's happening now.",
+          "difficulty": "medium",
+          "conceptIds": ["word-order-sov", "progressive-go-isseo", "location-eseo"],
+          "vocabularyIds": ["wait", "friend", "here"]
+        }
+      ]
+    },
+    {
+      "id": "mr-challenge",
+      "type": "quiz",
+      "title": "Optional challenge: one verb, four sentences",
+      "intro": "Pick any verb from this module and make four sentences with it: present, past, future, and progressive. Then compare your sentences with the model answer.",
+      "questions": [
+        {
+          "id": "q-mr-challenge",
+          "type": "selfCheck",
+          "mode": "produce",
+          "prompt": "Choose a verb and say or write four sentences: present, past, future, and progressive.",
+          "answer": {
+            "korean": "나는 커피를 마셔. / 나는 어제 커피를 마셨어. / 나는 내일 커피를 마실 거야. / 나는 지금 커피를 마시고 있어.",
+            "romanization": "Naneun keopireul masyeo. / Naneun eoje keopireul masyeosseo. / Naneun naeil keopireul masil geoya. / Naneun jigeum keopireul masigo isseo.",
+            "english": "I drink coffee. / I drank coffee yesterday. / I will drink coffee tomorrow. / I am drinking coffee now."
+          },
+          "explanation": "Model answer using 마시다. Check that your verb is last, that each ending matches its tense, and that your object has 을/를 (or is left bare, as in casual speech).",
+          "difficulty": "hard",
+          "conceptIds": ["present-casual", "past-casual", "future-eul-geoya", "progressive-go-isseo"]
+        }
+      ]
+    },
+    {
+      "id": "mr-recap",
+      "type": "recap",
+      "title": "Module 1 complete",
+      "points": [
+        "You can form the casual present, past, future, and progressive of everyday verbs.",
+        "You can use 은/는, 이/가, 을/를, 에, and 에서 in short sentences.",
+        "You know 33 words, each learned and practiced in context.",
+        "Next up in Korean Foundations: questions and negation (coming soon)."
+      ],
+      "showWeakAreas": true
+    }
+  ]
+}

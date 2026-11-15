@@ -1,0 +1,76 @@
+{
+  "journeys": [
+    {
+      "id": "korean-foundations",
+      "slug": "korean-foundations",
+      "title": "Korean Foundations",
+      "description": "Core sentence patterns, everyday vocabulary, and the grammar that holds Korean sentences together. Learn each word when you need it, then keep using it.",
+      "level": "Beginner",
+      "status": "available",
+      "moduleIds": ["verb-tenses", "questions-negation", "particles-sentence-building", "polite-speech"]
+    },
+    {
+      "id": "everyday-conversations",
+      "slug": "everyday-conversations",
+      "title": "Everyday Conversations",
+      "description": "Short dialogues for greetings, ordering food, making plans, and getting around, built on the patterns from Korean Foundations.",
+      "level": "Beginner to Intermediate",
+      "status": "planned",
+      "moduleIds": []
+    }
+  ],
+  "modules": [
+    {
+      "id": "verb-tenses",
+      "slug": "verb-tenses",
+      "journeyId": "korean-foundations",
+      "number": 1,
+      "title": "Verb Tenses in Everyday Sentences",
+      "description": "Say what you do, did, will do, and are doing right now, using casual verb endings and the particles that appear naturally along the way.",
+      "introduction": [
+        "Korean places the main verb at the end of the sentence and often uses particles to show the roles of words.",
+        "We will learn everyday vocabulary as it becomes necessary, while practicing present, past, future, and progressive forms in short sentences."
+      ],
+      "status": "available",
+      "sectionIds": ["section-present-past", "section-future", "section-progressive", "section-module-review"],
+      "estimatedMinutes": 75,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "questions-negation",
+      "slug": "questions-negation",
+      "journeyId": "korean-foundations",
+      "number": 2,
+      "title": "Questions and Negation",
+      "description": "Ask yes/no and question-word questions, and say what you don't or can't do with 안 and 못.",
+      "introduction": [],
+      "status": "planned",
+      "sectionIds": [],
+      "prerequisiteIds": ["verb-tenses"]
+    },
+    {
+      "id": "particles-sentence-building",
+      "slug": "particles-sentence-building",
+      "journeyId": "korean-foundations",
+      "number": 3,
+      "title": "Particles and Sentence Building",
+      "description": "Go deeper into 은/는 versus 이/가, add 도, 와/과, 에게, and build longer sentences.",
+      "introduction": [],
+      "status": "planned",
+      "sectionIds": [],
+      "prerequisiteIds": ["verb-tenses"]
+    },
+    {
+      "id": "polite-speech",
+      "slug": "polite-speech",
+      "journeyId": "korean-foundations",
+      "number": 4,
+      "title": "Polite Speech and Honorifics",
+      "description": "Turn casual sentences into polite -요 sentences and learn when each register is appropriate.",
+      "introduction": [],
+      "status": "planned",
+      "sectionIds": [],
+      "prerequisiteIds": ["verb-tenses"]
+    }
+  ]
+}

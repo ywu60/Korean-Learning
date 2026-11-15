@@ -1,0 +1,554 @@
+{
+  "id": "section-present-past",
+  "moduleId": "verb-tenses",
+  "label": "Section 1",
+  "title": "Present and Past",
+  "summary": "Common present and past endings, plus the topic and object particles that appear in everyday sentences.",
+  "learningObjectives": [
+    "Form the casual present (-아/어/해) and past (-았어/었어/했어) of common verbs",
+    "Recognize the topic (은/는), subject (이/가), and object (을/를) particles",
+    "Read and say short sentences about eating, drinking, studying, and liking"
+  ],
+  "newVocabularyIds": ["eat", "drink", "study", "like", "love", "rice-meal", "water", "korean-language", "i-me", "you-casual"],
+  "grammarConceptIds": ["word-order-sov", "topic-eun-neun", "subject-i-ga", "object-eul-reul", "present-casual", "past-casual"],
+  "estimatedMinutes": 20,
+  "steps": [
+    {
+      "id": "s1-intro",
+      "type": "intro",
+      "title": "Talking about what you do and did",
+      "body": [
+        "Korean verbs are listed in their dictionary form, which always ends in -다: 먹다 (to eat), 마시다 (to drink), 공부하다 (to study).",
+        "To use a verb in a sentence, remove 다 to find the stem, then add an ending. The ending shows the tense and how polite you are being.",
+        "In this section you will learn ten everyday words and use them in present-tense sentences (먹어, I eat) and past-tense sentences (먹었어, I ate)."
+      ],
+      "callout": "All sentences in this module use casual speech (반말, banmal): the style for close friends and people younger than you. Polite speech, which adds 요, comes in a later module."
+    },
+    {
+      "id": "s1-vocab-verbs",
+      "type": "vocabulary",
+      "title": "New words: five verbs",
+      "intro": "Each verb is shown in its dictionary form. You'll use all five in sentences in a moment.",
+      "vocabularyIds": ["eat", "drink", "study", "like", "love"]
+    },
+    {
+      "id": "s1-vocab-nouns",
+      "type": "vocabulary",
+      "title": "New words: people and things",
+      "intro": "These nouns and pronouns are the who and the what for our first sentences.",
+      "vocabularyIds": ["rice-meal", "water", "korean-language", "i-me", "you-casual"]
+    },
+    {
+      "id": "s1-grammar-word-order",
+      "type": "grammar",
+      "title": "Sentence order and particles",
+      "grammarConceptIds": ["word-order-sov", "topic-eun-neun", "subject-i-ga", "object-eul-reul"],
+      "body": [
+        "A basic Korean sentence puts the verb last: the topic or subject comes first, then the object, then the verb.",
+        "Small particles attach to the end of nouns to show their role in the sentence. Each particle has two forms, chosen by whether the noun ends in a vowel or a consonant.",
+        "In everyday conversation, particles and even the subject are often left out when the meaning is clear. Lessons show full sentences first so the structure stays visible."
+      ],
+      "rules": [
+        { "pattern": "은/는: topic", "explanation": "What the sentence is about. 나 + 는 → 나는 (as for me)" },
+        { "pattern": "이/가: subject", "explanation": "Who or what does the action. 친구 + 가 → 친구가. You'll meet it in Section 2." },
+        { "pattern": "을/를: object", "explanation": "What receives the action. 밥 + 을 → 밥을, 너 + 를 → 너를" }
+      ],
+      "examples": [
+        {
+          "id": "s1-order-demo",
+          "korean": "나는 한국어를 좋아해.",
+          "romanization": "Naneun hangugeoreul joahae.",
+          "english": "I like Korean.",
+          "literal": "I (topic) · Korean (object) · like",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "한국어를", "romanization": "hangugeoreul", "meaning": "Korean (object)", "role": "object", "marker": "를", "vocabularyId": "korean-language", "grammarConceptId": "object-eul-reul" },
+            { "text": "좋아해", "romanization": "joahae", "meaning": "like", "role": "verb", "vocabularyId": "like", "grammarConceptId": "present-casual" }
+          ]
+        }
+      ],
+      "callout": {
+        "title": "Vowel or consonant?",
+        "body": [
+          "Look at the last sound of the noun. 나 and 너 end in a vowel → 나는, 너를.",
+          "밥 ends in the consonant ㅂ and 물 ends in ㄹ → 밥을, 물을."
+        ]
+      }
+    },
+    {
+      "id": "s1-grammar-present",
+      "type": "grammar",
+      "title": "Present tense: -아/어/해",
+      "grammarConceptIds": ["present-casual"],
+      "body": [
+        "Remove 다 from the dictionary form to find the stem: 먹다 → 먹, 마시다 → 마시, 공부하다 → 공부하.",
+        "If the stem's last vowel is ㅏ or ㅗ, add 아. Otherwise add 어. Every 하다 verb becomes 해.",
+        "The present tense covers habits and general facts (I eat rice, I study Korean) and what is happening around now."
+      ],
+      "rules": [
+        { "pattern": "stem with ㅏ/ㅗ + 아", "explanation": "You'll practice these stems in Section 2 (가 → 가, 오 → 와)." },
+        { "pattern": "other stems + 어", "explanation": "먹 + 어 → 먹어, 마시 + 어 → 마셔" },
+        { "pattern": "하다 → 해", "explanation": "공부하다 → 공부해, 좋아하다 → 좋아해" }
+      ],
+      "forms": [
+        { "dictionary": "먹다", "vocabularyId": "eat", "form": "먹어", "romanization": "meogeo", "english": "eat", "parts": [{ "text": "먹", "kind": "stem" }, { "text": "어", "kind": "ending" }] },
+        { "dictionary": "마시다", "vocabularyId": "drink", "form": "마셔", "romanization": "masyeo", "english": "drink", "parts": [{ "text": "마셔", "kind": "contracted" }], "derivation": "마시 + 어 → 마셔 (ㅣ and ㅓ merge into ㅕ)" },
+        { "dictionary": "공부하다", "vocabularyId": "study", "form": "공부해", "romanization": "gongbuhae", "english": "study", "parts": [{ "text": "공부", "kind": "stem" }, { "text": "해", "kind": "ending" }], "derivation": "하다 → 해" },
+        { "dictionary": "좋아하다", "vocabularyId": "like", "form": "좋아해", "romanization": "joahae", "english": "like", "parts": [{ "text": "좋아", "kind": "stem" }, { "text": "해", "kind": "ending" }], "derivation": "하다 → 해" },
+        { "dictionary": "사랑하다", "vocabularyId": "love", "form": "사랑해", "romanization": "saranghae", "english": "love", "parts": [{ "text": "사랑", "kind": "stem" }, { "text": "해", "kind": "ending" }], "derivation": "하다 → 해" }
+      ]
+    },
+    {
+      "id": "s1-examples-present",
+      "type": "example",
+      "title": "Present-tense sentences",
+      "intro": "Tap any word to see its breakdown.",
+      "sentences": [
+        {
+          "id": "s1-eat-present",
+          "korean": "나는 밥을 먹어.",
+          "romanization": "Naneun babeul meogeo.",
+          "english": "I eat a meal.",
+          "literal": "I (topic) · meal (object) · eat",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "밥을", "romanization": "babeul", "meaning": "meal (object)", "role": "object", "marker": "을", "vocabularyId": "rice-meal", "grammarConceptId": "object-eul-reul" },
+            { "text": "먹어", "romanization": "meogeo", "meaning": "eat", "role": "verb", "marker": "어", "vocabularyId": "eat", "grammarConceptId": "present-casual" }
+          ]
+        },
+        {
+          "id": "s1-drink-present",
+          "korean": "나는 물을 마셔.",
+          "romanization": "Naneun mureul masyeo.",
+          "english": "I drink water.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "물을", "romanization": "mureul", "meaning": "water (object)", "role": "object", "marker": "을", "vocabularyId": "water", "grammarConceptId": "object-eul-reul" },
+            { "text": "마셔", "romanization": "masyeo", "meaning": "drink", "role": "verb", "vocabularyId": "drink", "grammarConceptId": "present-casual" }
+          ]
+        },
+        {
+          "id": "s1-study-present",
+          "korean": "나는 한국어를 공부해.",
+          "romanization": "Naneun hangugeoreul gongbuhae.",
+          "english": "I study Korean.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "한국어를", "romanization": "hangugeoreul", "meaning": "Korean (object)", "role": "object", "marker": "를", "vocabularyId": "korean-language", "grammarConceptId": "object-eul-reul" },
+            { "text": "공부해", "romanization": "gongbuhae", "meaning": "study", "role": "verb", "marker": "해", "vocabularyId": "study", "grammarConceptId": "present-casual" }
+          ]
+        },
+        {
+          "id": "s1-like-present",
+          "korean": "나는 너를 좋아해.",
+          "romanization": "Naneun neoreul joahae.",
+          "english": "I like you.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "너를", "romanization": "neoreul", "meaning": "you (object)", "role": "object", "marker": "를", "vocabularyId": "you-casual", "grammarConceptId": "object-eul-reul" },
+            { "text": "좋아해", "romanization": "joahae", "meaning": "like", "role": "verb", "marker": "해", "vocabularyId": "like", "grammarConceptId": "present-casual" }
+          ]
+        },
+        {
+          "id": "s1-love-present",
+          "korean": "나는 너를 사랑해.",
+          "romanization": "Naneun neoreul saranghae.",
+          "english": "I love you.",
+          "note": "사랑해 on its own is a very common way to say \"I love you.\"",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "너를", "romanization": "neoreul", "meaning": "you (object)", "role": "object", "marker": "를", "vocabularyId": "you-casual", "grammarConceptId": "object-eul-reul" },
+            { "text": "사랑해", "romanization": "saranghae", "meaning": "love", "role": "verb", "marker": "해", "vocabularyId": "love", "grammarConceptId": "present-casual" }
+          ]
+        }
+      ],
+      "explanation": "Every sentence ends with the verb, and every object ends in 을 or 를."
+    },
+    {
+      "id": "s1-check-present",
+      "type": "quiz",
+      "title": "Quick check: present tense",
+      "questions": [
+        {
+          "id": "q-s1-present-drink",
+          "type": "multipleChoice",
+          "prompt": "What is the casual present form of 마시다 (to drink)?",
+          "options": [
+            { "id": "a", "text": "마셔" },
+            { "id": "b", "text": "마셨어" },
+            { "id": "c", "text": "마시다" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "마시 + 어 contracts to 마셔 (masyeo). 마셨어 is the past tense, and 마시다 is the dictionary form, which isn't used as-is in conversation.",
+          "conceptIds": ["present-casual"],
+          "vocabularyIds": ["drink"]
+        },
+        {
+          "id": "q-s1-present-like",
+          "type": "multipleChoice",
+          "prompt": "What does 좋아하다 (to like) become in the casual present?",
+          "options": [
+            { "id": "a", "text": "좋아어" },
+            { "id": "b", "text": "좋아해" },
+            { "id": "c", "text": "좋아하어" }
+          ],
+          "correctOptionId": "b",
+          "explanation": "Every 하다 verb becomes 해: 좋아하다 → 좋아해 (joahae).",
+          "hint": "Look at the last part of the verb: 하다.",
+          "conceptIds": ["present-casual"],
+          "vocabularyIds": ["like"]
+        }
+      ]
+    },
+    {
+      "id": "s1-grammar-past",
+      "type": "grammar",
+      "title": "Past tense: -았어/었어/했어",
+      "grammarConceptIds": ["past-casual"],
+      "body": [
+        "The past tense follows the same vowel rule as the present: ㅏ/ㅗ stems take 았어, other stems take 었어, and 하다 becomes 했어.",
+        "A shortcut: take the present form, add ㅆ under its last syllable, then add 어. 먹어 → 먹었어, 마셔 → 마셨어, 공부해 → 공부했어."
+      ],
+      "rules": [
+        { "pattern": "other stems + 었어", "explanation": "먹 + 었어 → 먹었어, 마시 + 었어 → 마셨어" },
+        { "pattern": "하다 → 했어", "explanation": "공부하다 → 공부했어, 사랑하다 → 사랑했어" }
+      ],
+      "forms": [
+        { "dictionary": "먹다", "vocabularyId": "eat", "form": "먹었어", "romanization": "meogeosseo", "english": "ate", "parts": [{ "text": "먹", "kind": "stem" }, { "text": "었어", "kind": "ending" }] },
+        { "dictionary": "마시다", "vocabularyId": "drink", "form": "마셨어", "romanization": "masyeosseo", "english": "drank", "parts": [{ "text": "마셨어", "kind": "contracted" }], "derivation": "마시 + 었어 → 마셨어" },
+        { "dictionary": "공부하다", "vocabularyId": "study", "form": "공부했어", "romanization": "gongbuhaesseo", "english": "studied", "parts": [{ "text": "공부", "kind": "stem" }, { "text": "했어", "kind": "ending" }], "derivation": "하다 → 했어" },
+        { "dictionary": "좋아하다", "vocabularyId": "like", "form": "좋아했어", "romanization": "joahaesseo", "english": "liked", "parts": [{ "text": "좋아", "kind": "stem" }, { "text": "했어", "kind": "ending" }], "derivation": "하다 → 했어" },
+        { "dictionary": "사랑하다", "vocabularyId": "love", "form": "사랑했어", "romanization": "saranghaesseo", "english": "loved", "parts": [{ "text": "사랑", "kind": "stem" }, { "text": "했어", "kind": "ending" }], "derivation": "하다 → 했어" }
+      ],
+      "callout": {
+        "title": "좋아했어 vs. 좋아한다고 했어",
+        "body": [
+          "좋아했어 (joahaesseo) means \"liked\": 나는 너를 좋아했어. = I liked you.",
+          "좋아한다고 했어 (joahandago haesseo) means \"said that (someone) likes.\" There, 했어 is the past tense of saying, and the liking stays in the present. You don't need this pattern yet; just don't mix the two up."
+        ]
+      }
+    },
+    {
+      "id": "s1-examples-past",
+      "type": "example",
+      "title": "Past-tense sentences",
+      "intro": "The same sentences, now in the past. Only the verb changes.",
+      "sentences": [
+        {
+          "id": "s1-eat-past",
+          "korean": "나는 밥을 먹었어.",
+          "romanization": "Naneun babeul meogeosseo.",
+          "english": "I ate a meal.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "밥을", "romanization": "babeul", "meaning": "meal (object)", "role": "object", "marker": "을", "vocabularyId": "rice-meal", "grammarConceptId": "object-eul-reul" },
+            { "text": "먹었어", "romanization": "meogeosseo", "meaning": "ate", "role": "verb", "marker": "었어", "vocabularyId": "eat", "grammarConceptId": "past-casual" }
+          ]
+        },
+        {
+          "id": "s1-drink-past",
+          "korean": "나는 물을 마셨어.",
+          "romanization": "Naneun mureul masyeosseo.",
+          "english": "I drank water.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "물을", "romanization": "mureul", "meaning": "water (object)", "role": "object", "marker": "을", "vocabularyId": "water", "grammarConceptId": "object-eul-reul" },
+            { "text": "마셨어", "romanization": "masyeosseo", "meaning": "drank", "role": "verb", "vocabularyId": "drink", "grammarConceptId": "past-casual" }
+          ]
+        },
+        {
+          "id": "s1-study-past",
+          "korean": "나는 한국어를 공부했어.",
+          "romanization": "Naneun hangugeoreul gongbuhaesseo.",
+          "english": "I studied Korean.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "한국어를", "romanization": "hangugeoreul", "meaning": "Korean (object)", "role": "object", "marker": "를", "vocabularyId": "korean-language", "grammarConceptId": "object-eul-reul" },
+            { "text": "공부했어", "romanization": "gongbuhaesseo", "meaning": "studied", "role": "verb", "marker": "했어", "vocabularyId": "study", "grammarConceptId": "past-casual" }
+          ]
+        },
+        {
+          "id": "s1-like-past",
+          "korean": "나는 너를 좋아했어.",
+          "romanization": "Naneun neoreul joahaesseo.",
+          "english": "I liked you.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "너를", "romanization": "neoreul", "meaning": "you (object)", "role": "object", "marker": "를", "vocabularyId": "you-casual", "grammarConceptId": "object-eul-reul" },
+            { "text": "좋아했어", "romanization": "joahaesseo", "meaning": "liked", "role": "verb", "marker": "했어", "vocabularyId": "like", "grammarConceptId": "past-casual" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1-compare-present-past",
+      "type": "comparison",
+      "title": "Present vs. past, side by side",
+      "intro": "These short sentences leave out 나는. That's normal in conversation when it's clear who is speaking.",
+      "columns": [
+        { "id": "present", "label": "Present", "pattern": "-아/어/해" },
+        { "id": "past", "label": "Past", "pattern": "-았어/었어/했어" }
+      ],
+      "rows": [
+        {
+          "id": "eat",
+          "label": "eat a meal",
+          "vocabularyId": "eat",
+          "cells": {
+            "present": { "id": "s1-cmp-eat-present", "korean": "밥을 먹어.", "romanization": "Babeul meogeo.", "english": "(I) eat a meal.", "highlight": "어" },
+            "past": { "id": "s1-cmp-eat-past", "korean": "밥을 먹었어.", "romanization": "Babeul meogeosseo.", "english": "(I) ate a meal.", "highlight": "었어" }
+          }
+        },
+        {
+          "id": "drink",
+          "label": "drink water",
+          "vocabularyId": "drink",
+          "cells": {
+            "present": { "id": "s1-cmp-drink-present", "korean": "물을 마셔.", "romanization": "Mureul masyeo.", "english": "(I) drink water.", "highlight": "셔" },
+            "past": { "id": "s1-cmp-drink-past", "korean": "물을 마셨어.", "romanization": "Mureul masyeosseo.", "english": "(I) drank water.", "highlight": "셨어" }
+          }
+        },
+        {
+          "id": "study",
+          "label": "study Korean",
+          "vocabularyId": "study",
+          "cells": {
+            "present": { "id": "s1-cmp-study-present", "korean": "한국어를 공부해.", "romanization": "Hangugeoreul gongbuhae.", "english": "(I) study Korean.", "highlight": "해" },
+            "past": { "id": "s1-cmp-study-past", "korean": "한국어를 공부했어.", "romanization": "Hangugeoreul gongbuhaesseo.", "english": "(I) studied Korean.", "highlight": "했어" }
+          }
+        },
+        {
+          "id": "like",
+          "label": "like you",
+          "vocabularyId": "like",
+          "cells": {
+            "present": { "id": "s1-cmp-like-present", "korean": "너를 좋아해.", "romanization": "Neoreul joahae.", "english": "(I) like you.", "highlight": "해" },
+            "past": { "id": "s1-cmp-like-past", "korean": "너를 좋아했어.", "romanization": "Neoreul joahaesseo.", "english": "(I) liked you.", "highlight": "했어" }
+          }
+        }
+      ],
+      "takeaway": "Only the ending changes. The stem and the rest of the sentence stay the same."
+    },
+    {
+      "id": "s1-practice-forms",
+      "type": "quiz",
+      "title": "Practice: forms and particles",
+      "intro": "Choose an answer to see whether it's right and why. You can retry any question.",
+      "questions": [
+        {
+          "id": "q-s1-past-eat",
+          "type": "multipleChoice",
+          "prompt": "Which is the casual past form of 먹다 (to eat)?",
+          "options": [
+            { "id": "a", "text": "먹어" },
+            { "id": "b", "text": "먹었어" },
+            { "id": "c", "text": "먹을 거야" }
+          ],
+          "correctOptionId": "b",
+          "explanation": "먹 + 었어 becomes 먹었어 (meogeosseo). 먹어 is the present; 먹을 거야 is the future, which you'll learn in Section 2.",
+          "conceptIds": ["past-casual"],
+          "vocabularyIds": ["eat"]
+        },
+        {
+          "id": "q-s1-meaning-drank",
+          "type": "multipleChoice",
+          "prompt": "What does this sentence mean?",
+          "sentence": { "id": "s1-q-drank", "korean": "나는 물을 마셨어.", "romanization": "Naneun mureul masyeosseo.", "english": "I drank water." },
+          "options": [
+            { "id": "a", "text": "I drink water." },
+            { "id": "b", "text": "I drank water." },
+            { "id": "c", "text": "I like water." }
+          ],
+          "correctOptionId": "b",
+          "explanation": "마셨어 is the past of 마시다 (to drink), and 물을 is water marked as the object: I drank water.",
+          "conceptIds": ["past-casual"],
+          "vocabularyIds": ["drink", "water"]
+        },
+        {
+          "id": "q-s1-particle-reul",
+          "type": "multipleChoice",
+          "prompt": "Which particle completes the sentence? 나는 한국어___ 공부해. (I study Korean.)",
+          "options": [
+            { "id": "a", "text": "을" },
+            { "id": "b", "text": "를" },
+            { "id": "c", "text": "는" }
+          ],
+          "correctOptionId": "b",
+          "explanation": "한국어 is the object and ends in a vowel (어), so it takes 를: 한국어를 (hangugeoreul). 을 is for nouns ending in a consonant, and 는 marks a topic.",
+          "conceptIds": ["object-eul-reul"],
+          "vocabularyIds": ["korean-language"]
+        },
+        {
+          "id": "q-s1-particle-eul",
+          "type": "multipleChoice",
+          "prompt": "Which particle completes the sentence? 나는 밥___ 먹었어. (I ate a meal.)",
+          "options": [
+            { "id": "a", "text": "을" },
+            { "id": "b", "text": "를" },
+            { "id": "c", "text": "가" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "밥 is the object and ends in the consonant ㅂ, so the object particle is 을: 밥을 (babeul). 가 would mark a subject.",
+          "conceptIds": ["object-eul-reul"],
+          "vocabularyIds": ["rice-meal"]
+        },
+        {
+          "id": "q-s1-choose-studied",
+          "type": "multipleChoice",
+          "prompt": "Which sentence means \"I studied Korean\"?",
+          "options": [
+            { "id": "a", "text": "나는 한국어를 공부해." },
+            { "id": "b", "text": "나는 한국어를 공부했어." },
+            { "id": "c", "text": "나는 한국어를 좋아했어." }
+          ],
+          "correctOptionId": "b",
+          "explanation": "공부했어 is the past of 공부하다 (to study). 공부해 is the present (I study), and 좋아했어 means \"liked.\"",
+          "difficulty": "medium",
+          "conceptIds": ["past-casual"],
+          "vocabularyIds": ["study"]
+        },
+        {
+          "id": "q-s1-identify-object",
+          "type": "tokenSelect",
+          "prompt": "Particle check: tap the word marked as the object (the thing being eaten).",
+          "sentence": {
+            "id": "s1-q-identify-object",
+            "korean": "나는 밥을 먹었어.",
+            "romanization": "Naneun babeul meogeosseo.",
+            "english": "I ate a meal.",
+            "tokens": [
+              { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는" },
+              { "text": "밥을", "romanization": "babeul", "meaning": "meal (object)", "role": "object", "marker": "을" },
+              { "text": "먹었어", "romanization": "meogeosseo", "meaning": "ate", "role": "verb" }
+            ]
+          },
+          "correctTokenIndexes": [1],
+          "explanation": "밥을 carries the object particle 을, so 밥 (meal) is what was eaten. 나는 carries the topic particle 는, and 먹었어 is the verb.",
+          "conceptIds": ["object-eul-reul", "topic-eun-neun"]
+        },
+        {
+          "id": "q-s1-identify-topic",
+          "type": "tokenSelect",
+          "prompt": "Particle check: tap the word marked as the topic.",
+          "sentence": {
+            "id": "s1-q-identify-topic",
+            "korean": "나는 너를 사랑해.",
+            "romanization": "Naneun neoreul saranghae.",
+            "english": "I love you.",
+            "tokens": [
+              { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는" },
+              { "text": "너를", "romanization": "neoreul", "meaning": "you (object)", "role": "object", "marker": "를" },
+              { "text": "사랑해", "romanization": "saranghae", "meaning": "love", "role": "verb" }
+            ]
+          },
+          "correctTokenIndexes": [0],
+          "explanation": "나는 ends in the topic particle 는. 너를 ends in the object particle 를: you are the one being loved.",
+          "conceptIds": ["topic-eun-neun"]
+        }
+      ]
+    },
+    {
+      "id": "s1-practice-translate",
+      "type": "quiz",
+      "title": "Practice: translate",
+      "intro": "Say each answer out loud or type it, then reveal the model answer and mark how you did. Several answers can be correct.",
+      "questions": [
+        {
+          "id": "q-s1-tr-eat",
+          "type": "selfCheck",
+          "mode": "translate-to-korean",
+          "prompt": "Say it in Korean.",
+          "source": "I eat a meal.",
+          "answer": { "korean": "나는 밥을 먹어.", "romanization": "Naneun babeul meogeo.", "english": "I eat a meal." },
+          "acceptedAnswers": ["나는 밥을 먹어", "밥을 먹어", "나는 밥 먹어", "밥 먹어"],
+          "explanation": "Topic 나는, object 밥을, present verb 먹어. In casual speech, 밥 먹어 is also natural.",
+          "conceptIds": ["present-casual", "object-eul-reul"],
+          "vocabularyIds": ["eat", "rice-meal"]
+        },
+        {
+          "id": "q-s1-tr-drank",
+          "type": "selfCheck",
+          "mode": "translate-to-korean",
+          "prompt": "Say it in Korean.",
+          "source": "I drank water.",
+          "answer": { "korean": "나는 물을 마셨어.", "romanization": "Naneun mureul masyeosseo.", "english": "I drank water." },
+          "acceptedAnswers": ["나는 물을 마셨어", "물을 마셨어", "나는 물 마셨어", "물 마셨어"],
+          "explanation": "마시 + 었어 → 마셨어. 물 ends in a consonant, so it takes 을.",
+          "conceptIds": ["past-casual", "object-eul-reul"],
+          "vocabularyIds": ["drink", "water"]
+        },
+        {
+          "id": "q-s1-tr-studied",
+          "type": "selfCheck",
+          "mode": "translate-to-korean",
+          "prompt": "Say it in Korean.",
+          "source": "I studied Korean.",
+          "answer": { "korean": "나는 한국어를 공부했어.", "romanization": "Naneun hangugeoreul gongbuhaesseo.", "english": "I studied Korean." },
+          "acceptedAnswers": ["나는 한국어를 공부했어", "한국어를 공부했어", "나는 한국어 공부했어", "한국어 공부했어"],
+          "explanation": "공부하다 → 공부했어. 한국어 ends in a vowel, so it takes 를.",
+          "conceptIds": ["past-casual", "object-eul-reul"],
+          "vocabularyIds": ["study", "korean-language"]
+        },
+        {
+          "id": "q-s1-tr-liked",
+          "type": "selfCheck",
+          "mode": "translate-to-english",
+          "prompt": "What does this mean in English?",
+          "source": "나는 너를 좋아했어.",
+          "answer": { "korean": "나는 너를 좋아했어.", "romanization": "Naneun neoreul joahaesseo.", "english": "I liked you." },
+          "acceptedAnswers": ["I liked you"],
+          "explanation": "좋아했어 is the past of 좋아하다 (to like). It does not mean \"I said I like you\"; that would be 좋아한다고 했어.",
+          "conceptIds": ["past-casual"],
+          "vocabularyIds": ["like", "you-casual"]
+        },
+        {
+          "id": "q-s1-tr-love",
+          "type": "selfCheck",
+          "mode": "translate-to-english",
+          "prompt": "What does this mean in English?",
+          "source": "나는 너를 사랑해.",
+          "answer": { "korean": "나는 너를 사랑해.", "romanization": "Naneun neoreul saranghae.", "english": "I love you." },
+          "acceptedAnswers": ["I love you"],
+          "explanation": "사랑해 is the present of 사랑하다 (to love), and 너를 marks \"you\" as the object.",
+          "conceptIds": ["present-casual"],
+          "vocabularyIds": ["love", "you-casual"]
+        },
+        {
+          "id": "q-s1-order-like",
+          "type": "ordering",
+          "prompt": "Put the words in order to say \"I like Korean.\"",
+          "pieces": ["나는", "한국어를", "좋아해"],
+          "sentence": { "id": "s1-q-order-like", "korean": "나는 한국어를 좋아해.", "romanization": "Naneun hangugeoreul joahae.", "english": "I like Korean." },
+          "explanation": "Topic first (나는), then the object (한국어를), and the verb last (좋아해).",
+          "conceptIds": ["word-order-sov"],
+          "vocabularyIds": ["like", "korean-language"]
+        }
+      ]
+    },
+    {
+      "id": "s1-recap",
+      "type": "recap",
+      "title": "Section 1 recap",
+      "points": [
+        "Remove 다 from a verb to find its stem, then add an ending.",
+        "Present: ㅏ/ㅗ stems + 아, other stems + 어, and 하다 → 해 (먹어, 마셔, 공부해).",
+        "Past: ㅏ/ㅗ stems + 았어, other stems + 었어, and 하다 → 했어 (먹었어, 마셨어, 공부했어).",
+        "The verb comes last. 은/는 marks the topic, 이/가 the subject, and 을/를 the object.",
+        "Casual conversation often drops particles and the subject: 밥 먹었어."
+      ],
+      "vocabularyIds": ["eat", "drink", "study", "like", "love", "rice-meal", "water", "korean-language", "i-me", "you-casual"],
+      "grammarConceptIds": ["word-order-sov", "topic-eun-neun", "subject-i-ga", "object-eul-reul", "present-casual", "past-casual"],
+      "table": {
+        "caption": "Present and past at a glance",
+        "headers": ["Verb", "Present", "Past"],
+        "rows": [
+          ["먹다 (to eat)", "먹어 (meogeo)", "먹었어 (meogeosseo)"],
+          ["마시다 (to drink)", "마셔 (masyeo)", "마셨어 (masyeosseo)"],
+          ["공부하다 (to study)", "공부해 (gongbuhae)", "공부했어 (gongbuhaesseo)"],
+          ["좋아하다 (to like)", "좋아해 (joahae)", "좋아했어 (joahaesseo)"],
+          ["사랑하다 (to love)", "사랑해 (saranghae)", "사랑했어 (saranghaesseo)"]
+        ]
+      }
+    }
+  ]
+}

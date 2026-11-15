@@ -1,0 +1,558 @@
+{
+  "id": "section-progressive",
+  "moduleId": "verb-tenses",
+  "label": "Section 3",
+  "title": "Continuous / Progressive",
+  "summary": "Describe actions in progress with -고 있어, mark where actions happen with 에서, and compare all four forms.",
+  "learningObjectives": [
+    "Form the progressive with stem + 고 있어",
+    "Tell the difference between habits (present) and actions underway (progressive)",
+    "Use 에서 to mark where an action happens, and contrast it with 에",
+    "Convert one verb across present, past, future, and progressive"
+  ],
+  "newVocabularyIds": ["read", "write", "work", "wait", "exercise", "book", "letter", "home", "now", "here"],
+  "reviewVocabularyIds": ["study", "korean-language", "friend", "i-me", "tomorrow", "yesterday"],
+  "grammarConceptIds": ["progressive-go-isseo", "location-eseo", "present-casual", "past-casual", "future-eul-geoya"],
+  "estimatedMinutes": 25,
+  "steps": [
+    {
+      "id": "s3-intro",
+      "type": "intro",
+      "title": "Talking about what you're doing right now",
+      "body": [
+        "Use -고 있어 to describe an action in progress: 공부하고 있어 (I'm studying).",
+        "Depending on context, it can mean an action happening at this moment, or an activity that's ongoing around now, like a project you're in the middle of.",
+        "You'll learn five daily-action verbs, the particle 에서 for where something happens, and then compare all four forms you know."
+      ],
+      "callout": "-고 있어 describes something underway. It's not a future form: English says \"I'm meeting a friend tomorrow,\" but Korean uses 만날 거야 for that."
+    },
+    {
+      "id": "s3-vocab-verbs",
+      "type": "vocabulary",
+      "title": "New words: five daily actions",
+      "vocabularyIds": ["read", "write", "work", "wait", "exercise"]
+    },
+    {
+      "id": "s3-vocab-nouns",
+      "type": "vocabulary",
+      "title": "New words: things, places, and time",
+      "vocabularyIds": ["book", "letter", "home", "now", "here"]
+    },
+    {
+      "id": "s3-grammar-progressive",
+      "type": "grammar",
+      "title": "Progressive: stem + 고 있어",
+      "grammarConceptIds": ["progressive-go-isseo"],
+      "body": [
+        "This is the easiest ending yet: remove 다 and add 고 있어. The stem never changes, whether it ends in a vowel or a consonant.",
+        "있어 is the casual present of 있다 (to be/exist), so -고 있어 literally means something like \"am in the middle of doing.\""
+      ],
+      "rules": [
+        { "pattern": "stem + 고 있어", "explanation": "공부하 + 고 있어 → 공부하고 있어, 읽 + 고 있어 → 읽고 있어" }
+      ],
+      "forms": [
+        { "dictionary": "공부하다", "vocabularyId": "study", "form": "공부하고 있어", "romanization": "gongbuhago isseo", "english": "am studying", "parts": [{ "text": "공부하", "kind": "stem" }, { "text": "고 있어", "kind": "ending" }] },
+        { "dictionary": "읽다", "vocabularyId": "read", "form": "읽고 있어", "romanization": "ilgo isseo", "english": "am reading", "parts": [{ "text": "읽", "kind": "stem" }, { "text": "고 있어", "kind": "ending" }], "derivation": "Spoken roughly as [일꼬 이써]: the ㄱ in ㄺ goes silent before ㄱ. The spelling doesn't change." },
+        { "dictionary": "쓰다", "vocabularyId": "write", "form": "쓰고 있어", "romanization": "sseugo isseo", "english": "am writing", "parts": [{ "text": "쓰", "kind": "stem" }, { "text": "고 있어", "kind": "ending" }] },
+        { "dictionary": "일하다", "vocabularyId": "work", "form": "일하고 있어", "romanization": "ilhago isseo", "english": "am working", "parts": [{ "text": "일하", "kind": "stem" }, { "text": "고 있어", "kind": "ending" }] },
+        { "dictionary": "기다리다", "vocabularyId": "wait", "form": "기다리고 있어", "romanization": "gidarigo isseo", "english": "am waiting", "parts": [{ "text": "기다리", "kind": "stem" }, { "text": "고 있어", "kind": "ending" }] },
+        { "dictionary": "운동하다", "vocabularyId": "exercise", "form": "운동하고 있어", "romanization": "undonghago isseo", "english": "am exercising", "parts": [{ "text": "운동하", "kind": "stem" }, { "text": "고 있어", "kind": "ending" }] }
+      ],
+      "callout": {
+        "title": "Present or progressive?",
+        "body": [
+          "Present for habits and general actions: 나는 책을 읽어. = I read books.",
+          "Progressive for an action underway: 나는 지금 책을 읽고 있어. = I'm reading a book now."
+        ]
+      }
+    },
+    {
+      "id": "s3-grammar-eseo",
+      "type": "grammar",
+      "title": "Where it happens: 에서",
+      "grammarConceptIds": ["location-eseo", "destination-e"],
+      "body": [
+        "에서 marks the place where an action happens: 집에서 일해 (I work at home).",
+        "Compare it with 에 from Section 2, which marks where you're going: 집에 가 (I go home).",
+        "With 여기 (here), 여기에서 is usually shortened to 여기서."
+      ],
+      "rules": [
+        { "pattern": "place + 에서 + action", "explanation": "집에서 운동해 = exercise at home" },
+        { "pattern": "place + 에 + 가다/오다", "explanation": "집에 가 = go home" },
+        { "pattern": "여기에서 → 여기서", "explanation": "여기서 기다려 = wait here" }
+      ],
+      "examples": [
+        {
+          "id": "s3-eseo-demo",
+          "korean": "나는 집에서 책을 읽어.",
+          "romanization": "Naneun jibeseo chaegeul ilgeo.",
+          "english": "I read books at home.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "집에서", "romanization": "jibeseo", "meaning": "at home (where the action happens)", "role": "location", "marker": "에서", "vocabularyId": "home", "grammarConceptId": "location-eseo" },
+            { "text": "책을", "romanization": "chaegeul", "meaning": "book (object)", "role": "object", "marker": "을", "vocabularyId": "book", "grammarConceptId": "object-eul-reul" },
+            { "text": "읽어", "romanization": "ilgeo", "meaning": "read", "role": "verb", "marker": "어", "vocabularyId": "read", "grammarConceptId": "present-casual" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-examples-progressive",
+      "type": "example",
+      "title": "Actions in progress",
+      "intro": "Each sentence describes something happening right now. Tap a word to see its breakdown.",
+      "sentences": [
+        {
+          "id": "s3-study-progressive",
+          "korean": "나는 지금 한국어를 공부하고 있어.",
+          "romanization": "Naneun jigeum hangugeoreul gongbuhago isseo.",
+          "english": "I am studying Korean now.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "지금", "romanization": "jigeum", "meaning": "now", "role": "time", "vocabularyId": "now" },
+            { "text": "한국어를", "romanization": "hangugeoreul", "meaning": "Korean (object)", "role": "object", "marker": "를", "vocabularyId": "korean-language", "grammarConceptId": "object-eul-reul" },
+            { "text": "공부하고 있어", "romanization": "gongbuhago isseo", "meaning": "am studying", "role": "verb", "marker": "고 있어", "vocabularyId": "study", "grammarConceptId": "progressive-go-isseo" }
+          ]
+        },
+        {
+          "id": "s3-read-progressive",
+          "korean": "나는 지금 책을 읽고 있어.",
+          "romanization": "Naneun jigeum chaegeul ilgo isseo.",
+          "english": "I am reading a book now.",
+          "pronunciationNote": "읽고 is pronounced [일꼬]. Revised Romanization follows standard pronunciation but doesn't mark the tensed ㄲ, so it's written ilgo.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "지금", "romanization": "jigeum", "meaning": "now", "role": "time", "vocabularyId": "now" },
+            { "text": "책을", "romanization": "chaegeul", "meaning": "book (object)", "role": "object", "marker": "을", "vocabularyId": "book", "grammarConceptId": "object-eul-reul" },
+            { "text": "읽고 있어", "romanization": "ilgo isseo", "meaning": "am reading", "role": "verb", "marker": "고 있어", "vocabularyId": "read", "grammarConceptId": "progressive-go-isseo" }
+          ]
+        },
+        {
+          "id": "s3-write-progressive",
+          "korean": "나는 지금 편지를 쓰고 있어.",
+          "romanization": "Naneun jigeum pyeonjireul sseugo isseo.",
+          "english": "I am writing a letter now.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "지금", "romanization": "jigeum", "meaning": "now", "role": "time", "vocabularyId": "now" },
+            { "text": "편지를", "romanization": "pyeonjireul", "meaning": "letter (object)", "role": "object", "marker": "를", "vocabularyId": "letter", "grammarConceptId": "object-eul-reul" },
+            { "text": "쓰고 있어", "romanization": "sseugo isseo", "meaning": "am writing", "role": "verb", "marker": "고 있어", "vocabularyId": "write", "grammarConceptId": "progressive-go-isseo" }
+          ]
+        },
+        {
+          "id": "s3-work-progressive",
+          "korean": "나는 지금 일하고 있어.",
+          "romanization": "Naneun jigeum ilhago isseo.",
+          "english": "I am working now.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "지금", "romanization": "jigeum", "meaning": "now", "role": "time", "vocabularyId": "now" },
+            { "text": "일하고 있어", "romanization": "ilhago isseo", "meaning": "am working", "role": "verb", "marker": "고 있어", "vocabularyId": "work", "grammarConceptId": "progressive-go-isseo" }
+          ]
+        },
+        {
+          "id": "s3-wait-progressive",
+          "korean": "나는 여기서 기다리고 있어.",
+          "romanization": "Naneun yeogiseo gidarigo isseo.",
+          "english": "I am waiting here.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "여기서", "romanization": "yeogiseo", "meaning": "here (where the action happens)", "role": "location", "marker": "서", "vocabularyId": "here", "grammarConceptId": "location-eseo" },
+            { "text": "기다리고 있어", "romanization": "gidarigo isseo", "meaning": "am waiting", "role": "verb", "marker": "고 있어", "vocabularyId": "wait", "grammarConceptId": "progressive-go-isseo" }
+          ]
+        },
+        {
+          "id": "s3-exercise-progressive",
+          "korean": "나는 집에서 운동하고 있어.",
+          "romanization": "Naneun jibeseo undonghago isseo.",
+          "english": "I am exercising at home.",
+          "tokens": [
+            { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는", "vocabularyId": "i-me", "grammarConceptId": "topic-eun-neun" },
+            { "text": "집에서", "romanization": "jibeseo", "meaning": "at home (where the action happens)", "role": "location", "marker": "에서", "vocabularyId": "home", "grammarConceptId": "location-eseo" },
+            { "text": "운동하고 있어", "romanization": "undonghago isseo", "meaning": "am exercising", "role": "verb", "marker": "고 있어", "vocabularyId": "exercise", "grammarConceptId": "progressive-go-isseo" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-check-progressive",
+      "type": "quiz",
+      "title": "Quick check: progressive",
+      "questions": [
+        {
+          "id": "q-s3-progressive-write",
+          "type": "multipleChoice",
+          "prompt": "How do you say \"am writing\" with 쓰다 (to write)?",
+          "options": [
+            { "id": "a", "text": "쓰고 있어" },
+            { "id": "b", "text": "썼어" },
+            { "id": "c", "text": "쓸 거야" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Stem 쓰 + 고 있어 → 쓰고 있어 (sseugo isseo). 썼어 is the past and 쓸 거야 is the future.",
+          "conceptIds": ["progressive-go-isseo"],
+          "vocabularyIds": ["write"]
+        },
+        {
+          "id": "q-s3-right-now",
+          "type": "multipleChoice",
+          "prompt": "Which sentence describes an action happening right now?",
+          "options": [
+            { "id": "a", "text": "나는 책을 읽어." },
+            { "id": "b", "text": "나는 지금 책을 읽고 있어." },
+            { "id": "c", "text": "나는 내일 책을 읽을 거야." }
+          ],
+          "correctOptionId": "b",
+          "explanation": "지금 (now) plus -고 있어 shows the reading is underway. 읽어 describes a habit (I read books), and 읽을 거야 is a plan for tomorrow.",
+          "conceptIds": ["progressive-go-isseo", "present-casual"],
+          "vocabularyIds": ["read", "book", "now"]
+        }
+      ]
+    },
+    {
+      "id": "s3-compare-four",
+      "type": "comparison",
+      "title": "All four forms side by side",
+      "intro": "The present rows describe habits or general actions. The progressive rows show an action underway right now.",
+      "columns": [
+        { "id": "present", "label": "Present", "pattern": "-아/어/해" },
+        { "id": "past", "label": "Past", "pattern": "-았어/었어/했어" },
+        { "id": "future", "label": "Future", "pattern": "-(으)ㄹ 거야" },
+        { "id": "progressive", "label": "Progressive", "pattern": "-고 있어" }
+      ],
+      "rows": [
+        {
+          "id": "study",
+          "label": "study Korean at home",
+          "vocabularyId": "study",
+          "cells": {
+            "present": { "id": "s3-cmp-study-present", "korean": "나는 집에서 한국어를 공부해.", "romanization": "Naneun jibeseo hangugeoreul gongbuhae.", "english": "I study Korean at home.", "highlight": "해" },
+            "past": { "id": "s3-cmp-study-past", "korean": "나는 어제 집에서 한국어를 공부했어.", "romanization": "Naneun eoje jibeseo hangugeoreul gongbuhaesseo.", "english": "I studied Korean at home yesterday.", "highlight": "했어" },
+            "future": { "id": "s3-cmp-study-future", "korean": "나는 내일 집에서 한국어를 공부할 거야.", "romanization": "Naneun naeil jibeseo hangugeoreul gongbuhal geoya.", "english": "I will study Korean at home tomorrow.", "highlight": "할 거야" },
+            "progressive": { "id": "s3-cmp-study-progressive", "korean": "나는 지금 집에서 한국어를 공부하고 있어.", "romanization": "Naneun jigeum jibeseo hangugeoreul gongbuhago isseo.", "english": "I am studying Korean at home now.", "highlight": "고 있어" }
+          }
+        },
+        {
+          "id": "read",
+          "label": "read a book",
+          "vocabularyId": "read",
+          "cells": {
+            "present": { "id": "s3-cmp-read-present", "korean": "나는 책을 읽어.", "romanization": "Naneun chaegeul ilgeo.", "english": "I read books.", "highlight": "어" },
+            "past": { "id": "s3-cmp-read-past", "korean": "나는 어제 책을 읽었어.", "romanization": "Naneun eoje chaegeul ilgeosseo.", "english": "I read a book yesterday.", "highlight": "었어" },
+            "future": { "id": "s3-cmp-read-future", "korean": "나는 내일 책을 읽을 거야.", "romanization": "Naneun naeil chaegeul ilgeul geoya.", "english": "I will read a book tomorrow.", "highlight": "을 거야" },
+            "progressive": { "id": "s3-cmp-read-progressive", "korean": "나는 지금 책을 읽고 있어.", "romanization": "Naneun jigeum chaegeul ilgo isseo.", "english": "I am reading a book now.", "highlight": "고 있어", "pronunciationNote": "읽고 is pronounced [일꼬]." }
+          }
+        },
+        {
+          "id": "work",
+          "label": "work from home",
+          "vocabularyId": "work",
+          "cells": {
+            "present": { "id": "s3-cmp-work-present", "korean": "나는 집에서 일해.", "romanization": "Naneun jibeseo ilhae.", "english": "I work from home.", "highlight": "해" },
+            "past": { "id": "s3-cmp-work-past", "korean": "나는 어제 집에서 일했어.", "romanization": "Naneun eoje jibeseo ilhaesseo.", "english": "I worked from home yesterday.", "highlight": "했어" },
+            "future": { "id": "s3-cmp-work-future", "korean": "나는 내일 집에서 일할 거야.", "romanization": "Naneun naeil jibeseo ilhal geoya.", "english": "I will work from home tomorrow.", "highlight": "할 거야" },
+            "progressive": { "id": "s3-cmp-work-progressive", "korean": "나는 지금 집에서 일하고 있어.", "romanization": "Naneun jigeum jibeseo ilhago isseo.", "english": "I am working from home now.", "highlight": "고 있어" }
+          }
+        },
+        {
+          "id": "wait",
+          "label": "wait for a friend here",
+          "vocabularyId": "wait",
+          "cells": {
+            "present": { "id": "s3-cmp-wait-present", "korean": "나는 여기서 친구를 기다려.", "romanization": "Naneun yeogiseo chingureul gidaryeo.", "english": "I wait for my friend here.", "highlight": "려" },
+            "past": { "id": "s3-cmp-wait-past", "korean": "나는 어제 여기서 친구를 기다렸어.", "romanization": "Naneun eoje yeogiseo chingureul gidaryeosseo.", "english": "I waited for my friend here yesterday.", "highlight": "렸어" },
+            "future": { "id": "s3-cmp-wait-future", "korean": "나는 내일 여기서 친구를 기다릴 거야.", "romanization": "Naneun naeil yeogiseo chingureul gidaril geoya.", "english": "I will wait for my friend here tomorrow.", "highlight": "릴 거야" },
+            "progressive": { "id": "s3-cmp-wait-progressive", "korean": "나는 지금 여기서 친구를 기다리고 있어.", "romanization": "Naneun jigeum yeogiseo chingureul gidarigo isseo.", "english": "I am waiting for my friend here now.", "highlight": "고 있어" }
+          }
+        }
+      ],
+      "takeaway": "Present: habits. Past: done. Future: planned. Progressive: happening now. 기다리 + 어 contracts to 기다려, just like 마시 + 어 → 마셔."
+    },
+    {
+      "id": "s3-practice-forms",
+      "type": "quiz",
+      "title": "Practice: progressive and 에서",
+      "intro": "Choose an answer to see whether it's right and why.",
+      "questions": [
+        {
+          "id": "q-s3-progressive-read",
+          "type": "multipleChoice",
+          "prompt": "What is the progressive form of 읽다 (to read)?",
+          "options": [
+            { "id": "a", "text": "읽어" },
+            { "id": "b", "text": "읽고 있어" },
+            { "id": "c", "text": "읽을 거야" }
+          ],
+          "correctOptionId": "b",
+          "explanation": "읽 + 고 있어 → 읽고 있어 (ilgo isseo, spoken [일꼬 이써]). 읽어 is the present and 읽을 거야 is the future.",
+          "conceptIds": ["progressive-go-isseo"],
+          "vocabularyIds": ["read"]
+        },
+        {
+          "id": "q-s3-identify-progressive",
+          "type": "tokenSelect",
+          "prompt": "Tap the part of the sentence that shows the action is in progress.",
+          "sentence": {
+            "id": "s3-q-identify-progressive",
+            "korean": "나는 지금 편지를 쓰고 있어.",
+            "romanization": "Naneun jigeum pyeonjireul sseugo isseo.",
+            "english": "I am writing a letter now.",
+            "tokens": [
+              { "text": "나는", "romanization": "naneun", "meaning": "I (topic)", "role": "topic", "marker": "는" },
+              { "text": "지금", "romanization": "jigeum", "meaning": "now", "role": "time" },
+              { "text": "편지를", "romanization": "pyeonjireul", "meaning": "letter (object)", "role": "object", "marker": "를" },
+              { "text": "쓰고 있어", "romanization": "sseugo isseo", "meaning": "am writing", "role": "verb", "marker": "고 있어" }
+            ]
+          },
+          "correctTokenIndexes": [3],
+          "explanation": "The -고 있어 ending in 쓰고 있어 marks the action as ongoing. 지금 (now) supports that meaning, but the grammar is in the verb ending.",
+          "conceptIds": ["progressive-go-isseo"]
+        },
+        {
+          "id": "q-s3-eseo-role",
+          "type": "multipleChoice",
+          "prompt": "In 집에서 일하고 있어 (I'm working at home), what does 에서 mark?",
+          "options": [
+            { "id": "a", "text": "Where the action happens" },
+            { "id": "b", "text": "Where someone is going" },
+            { "id": "c", "text": "The object of the verb" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "에서 marks the location of an action: the working happens at home. Where you're going would take 에: 집에 가.",
+          "conceptIds": ["location-eseo"],
+          "vocabularyIds": ["home", "work"]
+        },
+        {
+          "id": "q-s3-e-vs-eseo",
+          "type": "multipleChoice",
+          "prompt": "Which particle completes the sentence? 나는 집___ 운동하고 있어. (I'm exercising at home.)",
+          "options": [
+            { "id": "a", "text": "에" },
+            { "id": "b", "text": "에서" },
+            { "id": "c", "text": "을" }
+          ],
+          "correctOptionId": "b",
+          "explanation": "Exercising is an action happening at a place, so use 에서: 집에서. 에 would mean going to home (집에 가).",
+          "difficulty": "medium",
+          "conceptIds": ["location-eseo", "destination-e"],
+          "vocabularyIds": ["home", "exercise"]
+        },
+        {
+          "id": "q-s3-meaning-wait",
+          "type": "multipleChoice",
+          "prompt": "What does this sentence mean?",
+          "sentence": { "id": "s3-q-wait", "korean": "나는 여기서 기다리고 있어.", "romanization": "Naneun yeogiseo gidarigo isseo.", "english": "I am waiting here." },
+          "options": [
+            { "id": "a", "text": "I waited here." },
+            { "id": "b", "text": "I am waiting here." },
+            { "id": "c", "text": "I will wait here." }
+          ],
+          "correctOptionId": "b",
+          "explanation": "기다리고 있어 = am waiting (in progress), and 여기서 = here, shortened from 여기에서.",
+          "conceptIds": ["progressive-go-isseo", "location-eseo"],
+          "vocabularyIds": ["wait", "here"]
+        },
+        {
+          "id": "q-s3-not-future",
+          "type": "multipleChoice",
+          "prompt": "A friend asks what you're doing tomorrow. You plan to exercise. Which answer fits?",
+          "options": [
+            { "id": "a", "text": "나는 내일 운동하고 있어." },
+            { "id": "b", "text": "나는 내일 운동할 거야." }
+          ],
+          "correctOptionId": "b",
+          "explanation": "For plans, use -(으)ㄹ 거야: 운동할 거야. Unlike English \"I'm exercising tomorrow,\" Korean -고 있어 describes something already underway, not a plan.",
+          "difficulty": "hard",
+          "conceptIds": ["progressive-go-isseo", "future-eul-geoya"],
+          "vocabularyIds": ["exercise", "tomorrow"]
+        }
+      ]
+    },
+    {
+      "id": "s3-practice-four-forms",
+      "type": "quiz",
+      "title": "Four-form conversion",
+      "intro": "Move each verb between present, past, future, and progressive.",
+      "questions": [
+        {
+          "id": "q-s3-conv-read-present",
+          "type": "multipleChoice",
+          "prompt": "What is the casual present form of 읽다 (to read)?",
+          "options": [
+            { "id": "a", "text": "읽어" },
+            { "id": "b", "text": "읽아" },
+            { "id": "c", "text": "읽고" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "The stem 읽 has the vowel ㅣ (not ㅏ or ㅗ), so it takes 어: 읽어 (ilgeo). When spoken, the ㄱ of ㄺ moves to the next syllable: [일거].",
+          "conceptIds": ["present-casual"],
+          "vocabularyIds": ["read"]
+        },
+        {
+          "id": "q-s3-conv-write-past",
+          "type": "multipleChoice",
+          "prompt": "What is the casual past form of 쓰다 (to write)?",
+          "options": [
+            { "id": "a", "text": "쓰았어" },
+            { "id": "b", "text": "썼어" },
+            { "id": "c", "text": "쓰고 있어" }
+          ],
+          "correctOptionId": "b",
+          "explanation": "When a stem ends in ㅡ, the ㅡ drops before 어: 쓰 + 었어 → 썼어 (sseosseo). The present works the same way: 써.",
+          "difficulty": "medium",
+          "conceptIds": ["past-casual"],
+          "vocabularyIds": ["write"]
+        },
+        {
+          "id": "q-s3-conv-wait-future",
+          "type": "multipleChoice",
+          "prompt": "What is the future form of 기다리다 (to wait)?",
+          "options": [
+            { "id": "a", "text": "기다릴 거야" },
+            { "id": "b", "text": "기다리을 거야" },
+            { "id": "c", "text": "기다렸어" }
+          ],
+          "correctOptionId": "a",
+          "explanation": "기다리 ends in a vowel, so ㄹ goes under the last syllable: 기다릴 거야 (gidaril geoya). 기다렸어 is the past.",
+          "conceptIds": ["future-eul-geoya"],
+          "vocabularyIds": ["wait"]
+        },
+        {
+          "id": "q-s3-conv-work-progressive",
+          "type": "multipleChoice",
+          "prompt": "Turn 나는 집에서 일해 (I work from home) into \"I am working from home now.\"",
+          "options": [
+            { "id": "a", "text": "나는 지금 집에서 일하고 있어." },
+            { "id": "b", "text": "나는 지금 집에서 일했어." },
+            { "id": "c", "text": "나는 지금 집에서 일할 거야." }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Add 지금 and switch the ending to -고 있어: 일하고 있어. 일했어 is past and 일할 거야 is future.",
+          "conceptIds": ["progressive-go-isseo"],
+          "vocabularyIds": ["work", "home", "now"]
+        },
+        {
+          "id": "q-s3-produce-exercise",
+          "type": "selfCheck",
+          "mode": "produce",
+          "prompt": "Say all four forms of 운동하다 (to exercise): present, past, future, progressive.",
+          "source": "운동하다",
+          "answer": {
+            "korean": "운동해 · 운동했어 · 운동할 거야 · 운동하고 있어",
+            "romanization": "undonghae · undonghaesseo · undonghal geoya · undonghago isseo",
+            "english": "exercise · exercised · will exercise · am exercising"
+          },
+          "acceptedAnswers": ["운동해 운동했어 운동할 거야 운동하고 있어"],
+          "explanation": "운동하다 is a 하다 verb: 해 / 했어 / 할 거야 / 하고 있어, the same pattern as 공부하다 and 일하다.",
+          "conceptIds": ["present-casual", "past-casual", "future-eul-geoya", "progressive-go-isseo"],
+          "vocabularyIds": ["exercise"]
+        }
+      ]
+    },
+    {
+      "id": "s3-practice-translate",
+      "type": "quiz",
+      "title": "Practice: translate",
+      "intro": "Say each answer out loud or type it, then reveal the model answer and mark how you did.",
+      "questions": [
+        {
+          "id": "q-s3-tr-reading",
+          "type": "selfCheck",
+          "mode": "translate-to-korean",
+          "prompt": "Say it in Korean.",
+          "source": "I am reading a book now.",
+          "answer": { "korean": "나는 지금 책을 읽고 있어.", "romanization": "Naneun jigeum chaegeul ilgo isseo.", "english": "I am reading a book now." },
+          "acceptedAnswers": ["나는 지금 책을 읽고 있어", "지금 책을 읽고 있어", "나는 지금 책 읽고 있어", "지금 책 읽고 있어", "지금 나는 책을 읽고 있어"],
+          "explanation": "지금 = now, 책을 = book (object), 읽 + 고 있어 = am reading.",
+          "conceptIds": ["progressive-go-isseo"],
+          "vocabularyIds": ["read", "book", "now"]
+        },
+        {
+          "id": "q-s3-tr-writing",
+          "type": "selfCheck",
+          "mode": "translate-to-korean",
+          "prompt": "Say it in Korean.",
+          "source": "I am writing a letter now.",
+          "answer": { "korean": "나는 지금 편지를 쓰고 있어.", "romanization": "Naneun jigeum pyeonjireul sseugo isseo.", "english": "I am writing a letter now." },
+          "acceptedAnswers": ["나는 지금 편지를 쓰고 있어", "지금 편지를 쓰고 있어", "나는 지금 편지 쓰고 있어", "지금 편지 쓰고 있어", "지금 나는 편지를 쓰고 있어"],
+          "explanation": "편지 ends in a vowel, so it takes 를. 쓰 + 고 있어 → 쓰고 있어.",
+          "conceptIds": ["progressive-go-isseo", "object-eul-reul"],
+          "vocabularyIds": ["write", "letter", "now"]
+        },
+        {
+          "id": "q-s3-tr-waiting",
+          "type": "selfCheck",
+          "mode": "translate-to-korean",
+          "prompt": "Say it in Korean.",
+          "source": "I am waiting here.",
+          "answer": { "korean": "나는 여기서 기다리고 있어.", "romanization": "Naneun yeogiseo gidarigo isseo.", "english": "I am waiting here." },
+          "acceptedAnswers": ["나는 여기서 기다리고 있어", "여기서 기다리고 있어", "나는 여기에서 기다리고 있어", "여기에서 기다리고 있어"],
+          "explanation": "여기서 (short for 여기에서) marks where the waiting happens. 기다리 + 고 있어 → 기다리고 있어.",
+          "conceptIds": ["progressive-go-isseo", "location-eseo"],
+          "vocabularyIds": ["wait", "here"]
+        },
+        {
+          "id": "q-s3-tr-working",
+          "type": "selfCheck",
+          "mode": "translate-to-english",
+          "prompt": "What does this mean in English?",
+          "source": "나는 지금 일하고 있어.",
+          "answer": { "korean": "나는 지금 일하고 있어.", "romanization": "Naneun jigeum ilhago isseo.", "english": "I am working now." },
+          "acceptedAnswers": ["I am working now", "I'm working now", "I am working right now", "I'm working right now"],
+          "explanation": "일하고 있어 = am working, and 지금 = now.",
+          "conceptIds": ["progressive-go-isseo"],
+          "vocabularyIds": ["work", "now"]
+        },
+        {
+          "id": "q-s3-tr-exercising",
+          "type": "selfCheck",
+          "mode": "translate-to-english",
+          "prompt": "What does this mean in English?",
+          "source": "나는 집에서 운동하고 있어.",
+          "answer": { "korean": "나는 집에서 운동하고 있어.", "romanization": "Naneun jibeseo undonghago isseo.", "english": "I am exercising at home." },
+          "acceptedAnswers": ["I am exercising at home", "I'm exercising at home", "I am working out at home", "I'm working out at home"],
+          "explanation": "집에서 = at home (where the action happens), 운동하고 있어 = am exercising.",
+          "conceptIds": ["progressive-go-isseo", "location-eseo"],
+          "vocabularyIds": ["exercise", "home"]
+        },
+        {
+          "id": "q-s3-order-studying",
+          "type": "ordering",
+          "prompt": "Put the words in order to say \"I am studying Korean now.\"",
+          "pieces": ["나는", "지금", "한국어를", "공부하고 있어"],
+          "alternativeOrders": [["지금", "나는", "한국어를", "공부하고 있어"]],
+          "sentence": { "id": "s3-q-order-studying", "korean": "나는 지금 한국어를 공부하고 있어.", "romanization": "Naneun jigeum hangugeoreul gongbuhago isseo.", "english": "I am studying Korean now." },
+          "explanation": "Topic, time word, object, and the progressive verb last.",
+          "conceptIds": ["word-order-sov", "progressive-go-isseo"],
+          "vocabularyIds": ["study", "korean-language", "now"]
+        }
+      ]
+    },
+    {
+      "id": "s3-recap",
+      "type": "recap",
+      "title": "Section 3 recap",
+      "points": [
+        "Progressive: stem + 고 있어, with no change to the stem (공부하고 있어, 읽고 있어, 쓰고 있어).",
+        "Present describes habits and general actions; -고 있어 describes an action underway.",
+        "-고 있어 is not a future form. For plans, use -(으)ㄹ 거야.",
+        "에서 marks where an action happens (집에서 일해); 에 marks where you're going (집에 가).",
+        "Stems ending in ㅡ drop it before 어: 쓰 → 써, 썼어."
+      ],
+      "vocabularyIds": ["read", "write", "work", "wait", "exercise", "book", "letter", "home", "now", "here"],
+      "grammarConceptIds": ["progressive-go-isseo", "location-eseo"],
+      "table": {
+        "caption": "Four forms at a glance",
+        "headers": ["Verb", "Present", "Past", "Future", "Progressive"],
+        "rows": [
+          ["공부하다", "공부해 (gongbuhae)", "공부했어 (gongbuhaesseo)", "공부할 거야 (gongbuhal geoya)", "공부하고 있어 (gongbuhago isseo)"],
+          ["읽다", "읽어 (ilgeo)", "읽었어 (ilgeosseo)", "읽을 거야 (ilgeul geoya)", "읽고 있어 (ilgo isseo)"],
+          ["일하다", "일해 (ilhae)", "일했어 (ilhaesseo)", "일할 거야 (ilhal geoya)", "일하고 있어 (ilhago isseo)"],
+          ["기다리다", "기다려 (gidaryeo)", "기다렸어 (gidaryeosseo)", "기다릴 거야 (gidaril geoya)", "기다리고 있어 (gidarigo isseo)"],
+          ["쓰다", "써 (sseo)", "썼어 (sseosseo)", "쓸 거야 (sseul geoya)", "쓰고 있어 (sseugo isseo)"],
+          ["운동하다", "운동해 (undonghae)", "운동했어 (undonghaesseo)", "운동할 거야 (undonghal geoya)", "운동하고 있어 (undonghago isseo)"]
+        ]
+      }
+    }
+  ]
+}
